@@ -1,8 +1,12 @@
-module simple-cli
+module github.com/balajisa09/k8s-plugins
 
 go 1.18
 
-require github.com/spf13/cobra v1.5.0
+require (
+	github.com/spf13/cobra v1.5.0
+	k8s.io/apimachinery v0.24.3
+	k8s.io/client-go v0.24.3
+)
 
 require (
 	github.com/PuerkitoBio/purell v1.1.1 // indirect
